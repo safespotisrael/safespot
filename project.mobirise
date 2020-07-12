@@ -755,7 +755,8 @@
               }
             },
             "H1": {
-              "color": "#232323"
+              "color": "#232323",
+              "text-align": "center"
             },
             ".mbr-text, .mbr-section-btn": {
               "text-align": "center",
