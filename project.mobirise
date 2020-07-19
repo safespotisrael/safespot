@@ -699,18 +699,18 @@
                 "alt": ""
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/new2-2-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/new1-800x600.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
-                "src": "@PROJECT_PATH@/assets/images/new2.jpeg",
-                "tooltip": "@PROJECT_PATH@/assets/images/new2-85x48.png",
-                "title": "title 1",
-                "text": "text 1",
+                "src": "@PROJECT_PATH@/assets/images/new1.jpeg",
+                "tooltip": "@PROJECT_PATH@/assets/images/new1-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
                 "active": true,
                 "alt": ""
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/new1-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/new7small-1.jpeg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/new1.jpeg",
