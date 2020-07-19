@@ -688,7 +688,29 @@
             "theme": "absent",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/newslide2-800x600.jpg",
+                "image": "@PROJECT_PATH@/assets/images/newslide2-1024x768.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/newslide2.jpeg",
+                "tooltip": "@PROJECT_PATH@/assets/images/newslide2-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/newslide2-2-1024x768.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/newslide2.jpeg",
+                "tooltip": "@PROJECT_PATH@/assets/images/newslide2-85x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false,
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/newslide2-1-1024x768.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/newslide2.jpeg",
@@ -696,28 +718,6 @@
                 "title": "title 2",
                 "text": "text 2",
                 "active": true,
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/newslide7.jpeg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/newslide2.jpeg",
-                "tooltip": "@PROJECT_PATH@/assets/images/newslide2-85x48.png",
-                "title": "title 2",
-                "text": "text 2",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/newslide1.jpeg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/newslide2.jpeg",
-                "tooltip": "@PROJECT_PATH@/assets/images/newslide2-85x48.png",
-                "title": "title 2",
-                "text": "text 2",
-                "active": false,
                 "alt": ""
               }
             ],
@@ -735,9 +735,9 @@
             "customSize": false,
             "customWidth": "1600",
             "customHeight": "1080",
-            "size": "800x600",
-            "width": "800",
-            "height": "600"
+            "size": "1024x768",
+            "width": "1024",
+            "height": "768"
           },
           "articleLayout": false,
           "alias": "wowslider",
