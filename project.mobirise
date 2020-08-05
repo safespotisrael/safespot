@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "SafeSpot",
+    "name": "SafeSpot-clone",
     "currentPage": "home.html",
     "theme": {
       "name": "mobirise4",
@@ -50,7 +50,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 42,
+    "uniqCompNum": 52,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "mcShopcart": {
@@ -530,7 +530,7 @@
             }
           },
           "_name": "header4",
-          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"60\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-2.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/cl2vsGBr_4o\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><div style=\"direction: rtl;\"><span style=\"font-size: 4.25rem;\"><br><br>מגיע לך יותר פרטיות, &nbsp;</span></div><div style=\"direction: rtl; \">ביטחון ובריאות בחייך</div></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p><div style=\"direction: rtl;\"><span style=\"font-size: 1.5rem;\">מגני הפראדי שלנו מאפשרים לך מיידית לחסום את כל גלי התקשורת האלחוטיים&nbsp;</span></div><div style=\"direction: rtl;\"><span style=\"font-size: 1.5rem;\">במכשיר הנייד שברשותך,&nbsp;</span></div><div style=\"direction: rtl;\"><span style=\"font-size: 1.5rem;\">ולהחזיר לעצמך פרטיות, ביטחון, בריאות ושקט נפשי .&nbsp;</span></div><p></p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n            <div class=\"mbr-figure pt-5\">\n                <img src=\"@PROJECT_PATH@/assets/images/new7.jpeg\" alt=\"safespot\" mbr-style=\"{'width': mediaSize + '%'}\" title>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"40\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-2.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/cl2vsGBr_4o\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"media-content col-md-10\">\n                <h1 class=\"mbr-section-title align-center mbr-white pb-3 mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><div style=\"direction: rtl;\"><span style=\"font-size: 4.25rem;\"><br><br>מגיע לך יותר פרטיות, &nbsp;</span></div><div style=\"direction: rtl; \">ביטחון ובריאות בחייך &nbsp;&nbsp;</div></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-text align-center mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p><div style=\"direction: rtl;\"><span style=\"font-size: 1.5rem;\">מגני הפראדי שלנו מאפשרים לך מיידית לחסום את כל גלי התקשורת האלחוטיים&nbsp;</span></div><div style=\"direction: rtl;\"><span style=\"font-size: 1.5rem;\">במכשיר הנייד שברשותך,&nbsp;</span></div><div style=\"direction: rtl;\"><span style=\"font-size: 1.5rem;\">ולהחזיר לעצמך פרטיות, ביטחון, בריאות ושקט נפשי .&nbsp;</span></div><p></p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-secondary\" href=\"home.html#header7-19\" data-app-placeholder=\"Type Text\">Shield<br>הגנה מקרינה<br></a>\n                    <a class=\"btn btn-md btn-info\" href=\"home.html#header7-18\" data-app-placeholder=\"Type Text\">Bunker<br>ביטחון ופרטיות<br></a></div>\n            </div>\n            <div class=\"mbr-figure pt-5\">\n                <img src=\"@PROJECT_PATH@/assets/images/img-20200813.jpg\" alt=\"safespot\" mbr-style=\"{'width': mediaSize + '%'}\" title>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "s3ZHBEqdXD",
           "_anchor": "header4-i",
           "_PHPplaceholders": [],
@@ -575,6 +575,579 @@
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"60\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/2020-07-02-15-23.png\" width=\"1400\" alt=\"safespot\" title>\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                        Create awesome websites!\n                    </div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
           "_cid": "s3YthODQDt",
           "_anchor": "image3-7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background": "linear-gradient(45deg, @bg-value, @color2)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-figure": {
+              "@media (min-width: 992px)": {
+                "padding-left": "4rem"
+              },
+              "@media (max-width: 991px)": {
+                "padding-top": "3rem"
+              }
+            },
+            ".media-container-row": {
+              "& when (@reverseContent)": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse",
+                ".mbr-figure": {
+                  "@media (min-width: 992px)": {
+                    "padding-left": "0",
+                    "padding-right": "4rem"
+                  }
+                }
+              }
+            }
+          },
+          "_name": "header7",
+          "_customHTML": "<section class=\"header7\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Media On Right/Left\" name=\"reverseContent\" checked>\n\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"100\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-2.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Color 2\" value=\"#ff7f9f\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"media-content align-right\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><div style=\"direction: rtl;\"><span style=\"font-size: 4.25rem;\">דגם Bunker</span></div></h1>\n                <div class=\"mbr-section-text mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p><div style=\"direction: rtl;\"><span style=\"font-size: 1.5rem;\">Bunker מאפשר לך לשמור על הפרטיות והגנה על המידע במכשיר הסלולר שברשותך</span><br></div><p></p><div style=\"direction: rtl;\"></div><p></p><div style=\"direction: rtl;\"><span style=\"font-size: 1rem;\">נרתיקי Bunker נותנים לך הגנה הדומה להמצאות המכשיר במרתף תת קרקעי עב קירות, הרחק מגלי הקרינה של אנטנות הסלולר.&nbsp;</span><br></div><div style=\"direction: rtl;\"><span style=\"font-size: 1rem;\">כך מתאפשר להסתובב עם המכשיר ולנטרלו מהרשת בכל מקום שתבחרו, אם זה בפגישות, מקומות רגישים, הפגנות וכו..&nbsp;</span></div><div style=\"direction: rtl;\"><span style=\"font-size: 1rem;\">פשוט להכניס לנרתיק מראש ולהוציאו חזרה במקום בטוח.&nbsp;</span></div>\n<div style=\"direction: rtl;\"><br></div><div style=\"direction: rtl;\"><span style=\"font-size: 1rem;\">ללא Bunker בלתי אפשרי לבטל את התקשורת האלחוטית המשודרות מהמכשיר באופן בטוח ומוחלט, גם לא במצב טיסה ואפילו לא באמצעות כיבוי המכשיר.&nbsp;</span></div><div style=\"direction: rtl;\"><span style=\"font-size: 1rem;\">רק הוצאת הסוללה וכרטיס ה SIM מהמכשיר תבטל תקשורת אלחוטית לגמרי, דבר שלא ניתן לבצע בקלות מאז 2006, כאשר הטמיעו את הסוללות בתוך גוף המכשיר. &nbsp;</span></div><p></p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"home.html#header3-13\" data-app-placeholder=\"Type Text\">לרכישה</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"home.html#counters4-h\" data-app-placeholder=\"Type Text\">מידע נוסף</a></div>\n            </div>\n\n            <div mbr-video class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <iframe src=\"https://youtu.be/utv5bicifNI?loop=0&autoplay=0\"></iframe>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_anchor": "header7-19",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "s6voX3pYHl",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@noSpacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when not (@noSpacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "& when (@autoSize)": {
+              ".item-wrapper": {
+                "height": "100%",
+                "img": {
+                  "height": "100%",
+                  "object-fit": "cover"
+                }
+              }
+            },
+            ".carousel-control, .close": {
+              "background": "#1b1b1b"
+            },
+            ".carousel-control-prev": {
+              "margin-left": "2.5rem"
+            },
+            ".carousel-control-next": {
+              "margin-right": "2.5rem"
+            },
+            ".close": {
+              "position": "fixed",
+              "opacity": "0.5",
+              "font-size": "35px",
+              "font-weight": "300",
+              "width": "70px",
+              "height": "70px",
+              "border-radius": "50%",
+              "color": "#fff",
+              "top": "2.5rem",
+              "right": "2.5rem",
+              "line-height": "70px",
+              "border": "none",
+              "text-align": "center",
+              "text-shadow": "none",
+              "z-index": "5",
+              "-webkit-transition": "opacity 0.3s ease",
+              "-moz-transition": "opacity 0.3s ease",
+              "-o-transition": "opacity 0.3s ease",
+              "transition": "opacity 0.3s ease",
+              "font-family": "'MobiriseIcons'",
+              "&::before": {
+                "content": "'\\e91a'"
+              },
+              "&:hover": {
+                "opacity": "1",
+                "background": "#000",
+                "color": "#fff"
+              }
+            },
+            ".carousel-control": {
+              "position": "fixed",
+              "width": "70px",
+              "height": "70px",
+              "top": "50%",
+              "margin-top": "-35px",
+              "line-height": "70px",
+              "border-radius": "50%",
+              "font-size": "35px",
+              "border": "0",
+              "opacity": "0.5",
+              "text-shadow": "none",
+              "z-index": "5",
+              "color": "#fff",
+              "-webkit-transition": "all 0.2s ease-in-out 0s",
+              "-o-transition": "all 0.2s ease-in-out 0s",
+              "transition": "all 0.2s ease-in-out 0s"
+            },
+            ".carousel-inner > .active": {
+              "display": "block"
+            },
+            ".carousel-control.left": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".carousel-control.right": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".carousel-control .icon-next, .carousel-control .icon-prev": {
+              "margin-top": "-18px",
+              "font-size": "40px",
+              "line-height": "27px"
+            },
+            ".carousel-control:hover": {
+              "background": "#1b1b1b",
+              "color": "#fff",
+              "opacity": "1"
+            },
+            "@media (max-width: 768px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators": {
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#1b1b1b",
+              "opacity": "0.5",
+              "border": "4px solid #1b1b1b"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "100%",
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              ".carousel-item": {
+                "top": "50%",
+                "transform": "translateY(-50%)"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "-webkit-transition": "margin-top 0.3s ease-out",
+              "-moz-transition": "margin-top 0.3s ease-out",
+              "-o-transition": "margin-top 0.3s ease-out",
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "-webkit-transform": "none",
+              "-ms-transform": "none",
+              "-o-transform": "none",
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "a": {
+              "display": "block"
+            },
+            "a.img": {
+              "pointer-events": "none"
+            }
+          },
+          "_name": "gallery5",
+          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <header>Images</header>\n        <input type=\"checkbox\" title=\"Auto Size\" name=\"autoSize\" checked>\n        <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\">\n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-2.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <header condition=\"bg.type!==color\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            Gallery\n        </h3>\n        <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n            Enter Gallery Subtitle here.\n        </h4>\n        <div class=\"row mbr-gallery\" data-toggle=\"modal\" data-target=\"#{{idGallery}}Modal\">\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/img-20200808.jpg\" alt=\"safespot\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\" title=\"Bunker\">\n                </div>\n            </div>\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/img-20200807.jpg\" alt=\"safespot\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\" title=\"Bunker\">\n                </div>\n            </div>\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/img-20200806.jpg\" alt=\"safespot\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"2\" title=\"Bunker\">\n                </div>\n            </div>\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/img-20200805.jpg\" alt=\"safespot\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\" title=\"Bunker\">\n                </div>\n            </div>\n        </div>\n\n        <div class=\"modal mbr-slider fade\" id=\"{{idGallery}}Modal\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n            <div class=\"modal-dialog\" role=\"document\">\n                <div class=\"modal-content\">\n                    <div class=\"modal-body\">\n                        <div id=\"lb-{{idGallery}}\" class=\"carousel slide\" data-ride=\"carousel\">\n                            <div class=\"carousel-inner\">\n                                <div class=\"carousel-item active\">\n                                    <img class=\"d-block w-100\" src=\"../_images/background1.jpg\" alt>\n                                </div>\n                                <div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"../_images/background2.jpg\" alt>\n                                </div>\n                                <div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"../_images/background3.jpg\" alt>\n                                </div>\n                                <div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"../_images/background4.jpg\" alt>\n                                </div>\n                            </div>\n                            <ol class=\"carousel-indicators\">\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\" class=\"active\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"2\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\"></li>\n                            </ol>\n                            <a role=\"button\" href class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                            </a>\n                            <a class=\"carousel-control-prev carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"prev\">\n                                <span class=\"mbri-left mbr-iconfont\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Previous</span>\n                            </a>\n                            <a class=\"carousel-control-next carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"next\">\n                                <span class=\"mbri-right mbr-iconfont\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Next</span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "s6JKsUYCPE",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "gallery5-1e"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background": "linear-gradient(45deg, @color2, @bg-value)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".main": {
+              "& when (@reverseContent)": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse",
+                ".mbr-section-btn": {
+                  "text-align": "right"
+                }
+              }
+            },
+            ".btn": {
+              "margin": "0 0 .5rem 0"
+            }
+          },
+          "_name": "info2",
+          "_customHTML": "<section class=\"mbr-section info2\" group=\"Info\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subttle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Text on Right/Left\" name=\"reverseContent\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ffffff\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row main justify-content-center\">\n            <div class=\"media-container-column col-12 col-lg-3 col-md-4\">\n                <div class=\"mbr-section-btn align-left py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">\n                    <span class=\"mbri-preview mbr-iconfont\"></span>\n                    SEE MORE\n                    </a>\n                </div>\n            </div>\n            <div class=\"media-container-column title col-12 col-lg-7 col-md-6\">\n                <h2 mbr-if=\"showTitle\" class=\"align-right mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    GRADIENT BACKGROUND\n                </h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-right mbr-light mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Info block with gradient. Text is aligned to right.\n                </h3>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "info2-1b",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "s6vpw6yW8V",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background": "linear-gradient(45deg, @bg-value, @color2)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-figure": {
+              "@media (min-width: 992px)": {
+                "padding-left": "4rem"
+              },
+              "@media (max-width: 991px)": {
+                "padding-top": "3rem"
+              }
+            },
+            ".media-container-row": {
+              "& when (@reverseContent)": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse",
+                ".mbr-figure": {
+                  "@media (min-width: 992px)": {
+                    "padding-left": "0",
+                    "padding-right": "4rem"
+                  }
+                }
+              }
+            }
+          },
+          "_name": "header7",
+          "_customHTML": "<section class=\"header7\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Media On Right/Left\" name=\"reverseContent\">\n\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"100\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-2.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"color\" name=\"color2\" title=\"Color 2\" value=\"#ff7f9f\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"media-content align-right\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><div style=\"direction: rtl;\"><span style=\"font-size: 4.25rem;\">דגם Shield</span></div></h1>\n                <div class=\"mbr-section-text mbr-white pb-3\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"></p><div style=\"direction: rtl;\"><span style=\"font-size: 1.5rem;\">Shield מאפשר לך הגנה מנזקי הקרינה</span></div><p></p><p></p><div style=\"direction: rtl;\"><span style=\"font-size: 1rem;\">Shield מגן עליך מנזקי הקרינה הנפלטים מהמכשיר הנייד.&nbsp;</span></div><div style=\"direction: rtl;\"><span style=\"font-size: 1rem;\">בזמן שהנייד פועל, הוא ממשיך לשמור על תקשורת עם אנטנות הסלולר סביבך באופן מתמיד.&nbsp;</span></div><div style=\"direction: rtl;\"><span style=\"font-size: 1rem;\">קרינה זו משפיעה על הרקמות בגופך גם באופן מיידי (כאבי ראש, עייפות) וגם באופן הגורם לנזק מצטבר המשפיע על המערכת החיסונית, על הפריון ועל תפקוד המוח (מתבטא בליקוי התפיסה הקוגניטיבית).&nbsp;</span></div>\n<div style=\"direction: rtl;\"><br></div><div style=\"direction: rtl;\"><span style=\"font-size: 1rem;\">אל תתפשר על בריאותך בתקופה בה הטכנולוגיה נוגסת אט אט בשגרת יומינו.&nbsp;</span></div><p></p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-info\" href=\"home.html#header3-13\" data-app-placeholder=\"Type Text\">רכישה</a>\n                        <a class=\"btn btn-md btn-white-outline\" href=\"home.html#counters4-h\" data-app-placeholder=\"Type Text\">מידע נוסף</a></div>\n            </div>\n\n            <div mbr-video class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                <iframe src=\"https://youtu.be/YPrANU1NIII?loop=0&autoplay=0\"></iframe>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_cid": "s6vjp2S0U0",
+          "_anchor": "header7-18",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@noSpacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding-left": "0",
+                "padding-right": "0"
+              }
+            },
+            "& when not (@noSpacing)": {
+              ".item": {
+                "padding-bottom": "2rem"
+              }
+            },
+            "& when (@autoSize)": {
+              ".item-wrapper": {
+                "height": "100%",
+                "img": {
+                  "height": "100%",
+                  "object-fit": "cover"
+                }
+              }
+            },
+            ".carousel-control, .close": {
+              "background": "#1b1b1b"
+            },
+            ".carousel-control-prev": {
+              "margin-left": "2.5rem"
+            },
+            ".carousel-control-next": {
+              "margin-right": "2.5rem"
+            },
+            ".close": {
+              "position": "fixed",
+              "opacity": "0.5",
+              "font-size": "35px",
+              "font-weight": "300",
+              "width": "70px",
+              "height": "70px",
+              "border-radius": "50%",
+              "color": "#fff",
+              "top": "2.5rem",
+              "right": "2.5rem",
+              "line-height": "70px",
+              "border": "none",
+              "text-align": "center",
+              "text-shadow": "none",
+              "z-index": "5",
+              "-webkit-transition": "opacity 0.3s ease",
+              "-moz-transition": "opacity 0.3s ease",
+              "-o-transition": "opacity 0.3s ease",
+              "transition": "opacity 0.3s ease",
+              "font-family": "'MobiriseIcons'",
+              "&::before": {
+                "content": "'\\e91a'"
+              },
+              "&:hover": {
+                "opacity": "1",
+                "background": "#000",
+                "color": "#fff"
+              }
+            },
+            ".carousel-control": {
+              "position": "fixed",
+              "width": "70px",
+              "height": "70px",
+              "top": "50%",
+              "margin-top": "-35px",
+              "line-height": "70px",
+              "border-radius": "50%",
+              "font-size": "35px",
+              "border": "0",
+              "opacity": "0.5",
+              "text-shadow": "none",
+              "z-index": "5",
+              "color": "#fff",
+              "-webkit-transition": "all 0.2s ease-in-out 0s",
+              "-o-transition": "all 0.2s ease-in-out 0s",
+              "transition": "all 0.2s ease-in-out 0s"
+            },
+            ".carousel-inner > .active": {
+              "display": "block"
+            },
+            ".carousel-control.left": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".carousel-control.right": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".carousel-control .icon-next, .carousel-control .icon-prev": {
+              "margin-top": "-18px",
+              "font-size": "40px",
+              "line-height": "27px"
+            },
+            ".carousel-control:hover": {
+              "background": "#1b1b1b",
+              "color": "#fff",
+              "opacity": "1"
+            },
+            "@media (max-width: 768px)": {
+              ".carousel-control, .carousel-indicators, .modal .close": {
+                "position": "fixed"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-slider .carousel-control": {
+                "top": "auto",
+                "bottom": "20px"
+              },
+              ".mbr-slider > .container .carousel-control": {
+                "margin-bottom": "0"
+              }
+            },
+            ".carousel-indicators": {
+              "bottom": "0",
+              "margin-bottom": "3px",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "3.625rem !important",
+                "padding-left": "2.5rem",
+                "padding-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "display": "none"
+              }
+            },
+            ".carousel-indicators .active, .carousel-indicators li": {
+              "width": "7px",
+              "height": "7px",
+              "margin": "3px",
+              "background": "#1b1b1b",
+              "opacity": "0.5",
+              "border": "4px solid #1b1b1b"
+            },
+            ".carousel-indicators .active": {
+              "background": "#fff"
+            },
+            ".carousel-indicators li": {
+              "max-width": "15px",
+              "max-height": "15px",
+              "border-radius": "50%"
+            },
+            ".modal": {
+              "padding-left": "0 !important",
+              "position": "fixed",
+              "overflow": "hidden",
+              "padding-right": "0 !important"
+            },
+            ".modal-dialog": {
+              "margin": "0 auto",
+              "max-width": "100%",
+              "padding-left": "1rem",
+              "padding-right": "1rem"
+            },
+            ".modal-content": {
+              "border-radius": "0",
+              "border": "none",
+              "background": "transparent"
+            },
+            ".modal-body": {
+              "padding": "0",
+              "display": "flex",
+              "align-items": "center",
+              ".carousel-item": {
+                "top": "50%",
+                "transform": "translateY(-50%)"
+              },
+              "img": {
+                "width": "100%",
+                "object-fit": "contain",
+                "max-height": "~\"calc(100vh - 1.75rem)\""
+              }
+            },
+            ".carousel": {
+              "width": "100%"
+            },
+            ".modal-backdrop.in": {
+              "opacity": "0.8"
+            },
+            ".modal.fade .modal-dialog": {
+              "-webkit-transition": "margin-top 0.3s ease-out",
+              "-moz-transition": "margin-top 0.3s ease-out",
+              "-o-transition": "margin-top 0.3s ease-out",
+              "transition": "margin-top 0.3s ease-out"
+            },
+            ".modal.fade .modal-dialog, .modal.in .modal-dialog": {
+              "-webkit-transform": "none",
+              "-ms-transform": "none",
+              "-o-transform": "none",
+              "transform": "none"
+            },
+            ".mbr-gallery .item-wrapper": {
+              "cursor": "pointer"
+            },
+            "a": {
+              "display": "block"
+            },
+            "a.img": {
+              "pointer-events": "none"
+            }
+          },
+          "_name": "gallery5",
+          "_customHTML": "<section class=\"mbr-gallery gallery5\" group=\"Gallery\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <header>Images</header>\n        <input type=\"checkbox\" title=\"Auto Size\" name=\"autoSize\" checked>\n        <input type=\"checkbox\" title=\"No Spacing\" name=\"noSpacing\">\n        <!-- <input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"3\" step=\"0.1\" value=\"1\"> -->\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-2.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <header condition=\"bg.type!==color\">Overlay</header>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h3 class=\"mbr-section-title align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n            Gallery\n        </h3>\n        <h4 class=\"mbr-section-subtitle align-center pb-4 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n            Enter Gallery Subtitle here.\n        </h4>\n        <div class=\"row mbr-gallery\" data-toggle=\"modal\" data-target=\"#{{idGallery}}Modal\">\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/img-20200812.jpg\" alt=\"safespot\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\" title=\"Shield\">\n                </div>\n            </div>\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/img-20200811.jpg\" alt=\"safespot\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\" title=\"Shield\">\n                </div>\n            </div>\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/img-20200810.jpg\" alt=\"safespot\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"2\" title=\"Shield\">\n                </div>\n            </div>\n            <div class=\"col-sm-6 col-md-4 col-lg-3 item gallery-image\">\n                <div class=\"item-wrapper\">\n                    <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/img-20200809.jpg\" alt=\"safespot\" data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\" title=\"Shield\">\n                </div>\n            </div>\n        </div>\n\n        <div class=\"modal mbr-slider fade\" id=\"{{idGallery}}Modal\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">\n            <div class=\"modal-dialog\" role=\"document\">\n                <div class=\"modal-content\">\n                    <div class=\"modal-body\">\n                        <div id=\"lb-{{idGallery}}\" class=\"carousel slide\" data-ride=\"carousel\">\n                            <div class=\"carousel-inner\">\n                                <div class=\"carousel-item active\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/background1.jpg\" alt>\n                                </div>\n                                <div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/background2.jpg\" alt>\n                                </div>\n                                <div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/background3.jpg\" alt>\n                                </div>\n                                <div class=\"carousel-item\">\n                                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/background4.jpg\" alt>\n                                </div>\n                            </div>\n                            <ol class=\"carousel-indicators\">\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"0\" class=\"active\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"1\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"2\"></li>\n                                <li data-target=\"#lb-{{idGallery}}\" data-slide-to=\"3\"></li>\n                            </ol>\n                            <a role=\"button\" href class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\">\n                            </a>\n                            <a class=\"carousel-control-prev carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"prev\">\n                                <span class=\"mbri-left mbr-iconfont\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Previous</span>\n                            </a>\n                            <a class=\"carousel-control-next carousel-control\" href=\"#lb-{{idGallery}}\" role=\"button\" data-slide=\"next\">\n                                <span class=\"mbri-right mbr-iconfont\" aria-hidden=\"true\"></span>\n                                <span class=\"sr-only\">Next</span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "gallery5-1f",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "s6JNblv38m",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -671,7 +1244,7 @@
             }
           },
           "_name": "counters4",
-          "_customHTML": "<section class=\"counters4 counters\" group=\"Counters\" plugins=\"ViewportChecker\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Block Title\" name=\"showTitles\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Media\" name=\"showMedia\" checked>\n        <input type=\"range\" title=\"Media Size\" inline name=\"mediaSize\" min=\"20\" max=\"60\" value=\"49\" condition=\"showMedia\">\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\" condition=\"showMedia\" checked>\n        <select title=\"Cards Count\" name=\"cardsAmount\">\n           <option value=\"1\">1</option>\n           <option value=\"2\">2</option>\n           <option value=\"3\">3</option>\n           <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"range\" inline title=\"Number Size\" name=\"numberSize\" min=\"10\" max=\"50\" step=\"1\" value=\"32\">\n        <input type=\"color\" title=\"Border Color\" name=\"bordersColor\" value=\"#efefef\">\n        <input type=\"checkbox\" title=\"Show Borders\" name=\"showBorders\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n           <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-2.jpg\" selected parallax>\n           <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n           <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div style=\"direction: rtl;\"><div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container pt-4 mt-2\">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>זה הזמן להחזיר לך את השליטה.&nbsp;</b></h2>\n        <h3 class=\"mbr-section-subtitle pb-5 align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">מדוע חשוב לבחור ב <b>SafeSpot&nbsp;</b></h3>\n        <div mbr-class=\"{'media-container-row': showMedia,\n                         'row justify-content-center': !showTitle && !showSubtitle && !showMedia}\">\n            <div class=\"media-block m-auto\" mbr-style=\"{'width': mediaSize + '%'}\" mbr-if=\"showMedia\">\n                <div class=\"mbr-figure\">\n                    <img src=\"@PROJECT_PATH@/assets/images/new6.jpeg\" alt=\"safespot\" title=\"safespot\">\n                </div>\n            </div>\n            <div class=\"cards-block\">\n                <div class=\"cards-container\">\n                    <div class=\"card px-3 align-left col-12\">\n                        <div class=\"panel-item p-4 d-flex align-items-start\">\n                            <div class=\"card-img pr-3\">\n                                <h3 class=\"img-text d-flex align-items-center justify-content-center\" data-app-selector=\".img-text\">\n                                    1\n                                </h3>\n                            </div>\n                            <div class=\"card-text\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\">100% פלדת נירוסטה</h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">נרתיקי <b>SafeSpot </b>עשויים מ 100% פלדת נירוסטה, אשר עוברת תהליך אריגה מאלפי חוטי פלדה אולטרה דקיקים, הנותנים תחושה של בד לכל דבר.<br>תהליך אריגה זה מאפשר יכולת הגנה אלקטרומגנטית מוחלטת, המכסה את כל תדרי הרדיו הקיימים כיום, לרבות רשת ה- 5G <br>וכן את טווח התדרים שיכנסו לשימוש פעיל בעתיד.<br><br>היזהרו מחיקויים זולים אשר מיוצרים מתערובת חומרים כגון פוליאסטר, במבוק וכו.. &nbsp;לצד אחוזים בודדים של מתכת באיכות נמוכה, שאינם מספקים כלל את ההגנה הנדרשת.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card px-3 align-left col-12\" mbr-if=\"cardsAmount>1\">\n                        <div class=\"panel-item p-4 d-flex align-items-start\">\n                            <div class=\"card-img pr-3\">\n                                <h3 class=\"img-text d-flex align-items-center justify-content-center\" data-app-selector=\".img-text\">\n                                    2\n                                </h3>\n                            </div>\n                            <div class=\"card-text\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\">הגנה על הפרטיות שלך בכל מצב</h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">נרתיקי <b>SafeSpot </b>נותנים הגנה הדומה להמצאות המכשיר במרתף תת קרקעי עב קירות, הרחק מגלי הקרינה של אנטנות הסלולר.<br>כך מתאפשר להסתובב עם המכשיר ולנטרלו מהרשת בכל מקום שתבחרו, אם זה בפגישות, מקומות רגישים, הפגנות וכו..\n<br>פשוט להכניס לנרתיק מראש ולהוציאו חזרה במקום בטוח.<br><br>ללא נרתיקי <b>SafeSpot</b> בלתי אפשרי לבטל את התקשורת האלחוטית המשודרות מהמכשיר באופן בטוח ומוחלט, גם לא במצב טיסה ואפילו לא באמצעות כיבוי המכשיר. \n<br>רק הוצאת הסוללה מהמכשיר תבטל תקשורת אלחוטית לגמרי, דבר שלא ניתן לבצע בקלות מאז 2006, כאשר הטמיעו את הסוללות בתוך גוף המכשיר. &nbsp;<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card px-3 align-left col-12\" mbr-if=\"cardsAmount>2\">\n                        <div class=\"panel-item p-4 d-flex align-items-start\">\n                            <div class=\"card-img pr-3\">\n                                <h3 class=\"img-text d-flex align-items-center justify-content-center\" data-app-selector=\".img-text\">\n                                    3\n                                </h3>\n                            </div>\n                            <div class=\"card-text\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\">איכות מעל הכל</h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">נרתיקי <b>SafeSpot </b>נתפרים בעבודת יד ובקרת איכות קפדנית, כוללים את החומרים האיכותיים ביותר, ככה שלך יהיה שנים של שימוש מועיל במוצר. \n<br>אנו מספקים את המוצר עם <b>אחריות לכל החיים</b> לתפרים ולאריג הפלדה שימשיך ויספק את ההגנה הדרושה שנים רבות.&nbsp;<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card px-3 align-left col-12\" mbr-if=\"cardsAmount>3\">\n                        <div class=\"panel-item p-4 d-flex align-items-start\">\n                            <div class=\"card-img pr-3\">\n                                <h3 class=\"img-text d-flex align-items-center justify-content-center\" data-app-selector=\".img-text\">\n                                    4\n                                </h3>\n                            </div>\n                            <div class=\"card-texts\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\">הגנה מנזקי הקרינה</h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">מעבר להגנה על הפרטיות, נרתיקי <b>SafeSpot </b>מגינים עליך גם מנזקי הקרינה הנפלטים מהמכשיר הנייד. \n<br>בזמן שהנייד פועל, הוא ממשיך לשמור על תקשורת עם אנטנות הסלולר סביבך באופן מתמיד. \n<br>קרינה זו משפיעה על הרקמות בגופך גם באופן מיידי (כאבי ראש, עייפות) וגם באופן הגורם לנזק מצטבר המשפיע על המערכת החיסונית, על הפריון ועל תפקוד המוח (מתבטא בליקוי התפיסה הקוגניטיבית). \n<br>\n<br><b>על תתפשר על בריאותך בתקופה בה הטכנולוגיה נוגסת אט אט בשגרת יומינו.&nbsp;</b></p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div></section>",
+          "_customHTML": "<section class=\"counters4 counters\" group=\"Counters\" plugins=\"ViewportChecker\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Block Title\" name=\"showTitles\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Media\" name=\"showMedia\" checked>\n        <input type=\"range\" title=\"Media Size\" inline name=\"mediaSize\" min=\"20\" max=\"60\" value=\"34\" condition=\"showMedia\">\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\" condition=\"showMedia\" checked>\n        <select title=\"Cards Count\" name=\"cardsAmount\">\n           <option value=\"1\">1</option>\n           <option value=\"2\" selected>2</option>\n           <option value=\"3\">3</option>\n           <option value=\"4\">4</option>\n        </select>\n        <input type=\"range\" inline title=\"Number Size\" name=\"numberSize\" min=\"10\" max=\"50\" step=\"1\" value=\"17\">\n        <input type=\"color\" title=\"Border Color\" name=\"bordersColor\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Show Borders\" name=\"showBorders\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n           <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1.png\" selected>\n           <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n           <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div style=\"direction: rtl;\"><div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container pt-4 mt-2\">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>זה הזמן להחזיר לך את השליטה.&nbsp;</b></h2>\n        <h3 class=\"mbr-section-subtitle pb-5 align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">מדוע חשוב לבחור ב <b>SafeSpot&nbsp;</b></h3>\n        <div mbr-class=\"{'media-container-row': showMedia,\n                         'row justify-content-center': !showTitle && !showSubtitle && !showMedia}\">\n            <div class=\"media-block m-auto\" mbr-style=\"{'width': mediaSize + '%'}\" mbr-if=\"showMedia\">\n                <div class=\"mbr-figure\">\n                    <img src=\"@PROJECT_PATH@/assets/images/img-20200814.jpg\" alt=\"safespot\" title=\"safespot\">\n                </div>\n            </div>\n            <div class=\"cards-block\">\n                <div class=\"cards-container\">\n                    <div class=\"card px-3 align-left col-12\">\n                        <div class=\"panel-item p-4 d-flex align-items-start\">\n                            <div class=\"card-img pr-3\">\n                                <h3 class=\"img-text d-flex align-items-center justify-content-center\" data-app-selector=\".img-text\">\n                                    1\n                                </h3>\n                            </div>\n                            <div class=\"card-text\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\">100% פלדת נירוסטה</h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">נרתיקי <b>SafeSpot </b>עשויים מ 100% פלדת נירוסטה, אשר עוברת תהליך אריגה מאלפי חוטי פלדה אולטרה דקיקים, הנותנים תחושה של בד לכל דבר.<br>תהליך אריגה זה מאפשר יכולת הגנה אלקטרומגנטית מוחלטת, המכסה את כל תדרי הרדיו הקיימים כיום, לרבות רשת ה- 5G <br>וכן את טווח התדרים שיכנסו לשימוש פעיל בעתיד.<br><br>היזהרו מחיקויים זולים אשר מיוצרים מתערובת חומרים כגון פוליאסטר, במבוק וכו.. &nbsp;לצד אחוזים בודדים של מתכת באיכות נמוכה, שאינם מספקים כלל את ההגנה הנדרשת.<br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card px-3 align-left col-12\" mbr-if=\"cardsAmount>1\">\n                        <div class=\"panel-item p-4 d-flex align-items-start\">\n                            <div class=\"card-img pr-3\">\n                                <h3 class=\"img-text d-flex align-items-center justify-content-center\" data-app-selector=\".img-text\">\n                                    2\n                                </h3>\n                            </div>\n                            <div class=\"card-text\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\">איכות מעל הכל</h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">נרתיקי SafeSpot נתפרים בעבודת יד ובקרת איכות קפדנית, כוללים את החומרים האיכותיים ביותר, ככה שלך יהיה שנים של שימוש מועיל במוצר. \n<br>אנו מספקים את המוצר עם אחריות לכל החיים לתפרים ולאריג הפלדה שימשיך ויספק את ההגנה הדרושה שנים רבות.&nbsp;</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card px-3 align-left col-12\" mbr-if=\"cardsAmount>2\">\n                        <div class=\"panel-item p-4 d-flex align-items-start\">\n                            <div class=\"card-img pr-3\">\n                                <h3 class=\"img-text d-flex align-items-center justify-content-center\" data-app-selector=\".img-text\">\n                                    3\n                                </h3>\n                            </div>\n                            <div class=\"card-text\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\"></h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\"><br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card px-3 align-left col-12\" mbr-if=\"cardsAmount>3\">\n                        <div class=\"panel-item p-4 d-flex align-items-start\">\n                            <div class=\"card-img pr-3\">\n                                <h3 class=\"img-text d-flex align-items-center justify-content-center\" data-app-selector=\".img-text\">\n                                    4\n                                </h3>\n                            </div>\n                            <div class=\"card-texts\">\n                                <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\"></h4>\n                                <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\"></p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div></section>",
           "_cid": "s3ZEUO6k52",
           "_anchor": "counters4-h",
           "_PHPplaceholders": [],
@@ -680,72 +1253,6 @@
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_params": {
-            "autoplay": true,
-            "animType": "louvers",
-            "theme": "absent",
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/newslide2-1-1024x768.jpg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/newslide2.jpeg",
-                "tooltip": "@PROJECT_PATH@/assets/images/newslide2-85x48.png",
-                "title": "title 2",
-                "text": "text 2",
-                "active": true,
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/newslide7.jpeg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/newslide2.jpeg",
-                "tooltip": "@PROJECT_PATH@/assets/images/newslide2-85x48.png",
-                "title": "title 2",
-                "text": "text 2",
-                "active": false,
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/newslide1.jpeg",
-                "linkUrl": "http://google.com",
-                "link": false,
-                "src": "@PROJECT_PATH@/assets/images/newslide2.jpeg",
-                "tooltip": "@PROJECT_PATH@/assets/images/newslide2-85x48.png",
-                "title": "title 2",
-                "text": "text 2",
-                "active": false,
-                "alt": ""
-              }
-            ],
-            "fullScreen": true,
-            "showCaptions": false,
-            "hideControls": true,
-            "responsive": "1",
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "captionsEffect": "slide",
-            "showBullets": false,
-            "bgColor": "#ffffff",
-            "timeout": "4",
-            "duration": "3.5",
-            "customSize": false,
-            "customWidth": "1600",
-            "customHeight": "1080",
-            "size": "1024x768",
-            "width": "1024",
-            "height": "768"
-          },
-          "articleLayout": false,
-          "alias": "wowslider",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "wowslider",
-          "_anchor": "wowslider-15"
         },
         {
           "alias": false,
@@ -830,7 +1337,7 @@
             }
           },
           "_name": "header3",
-          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n    \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"50\">\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-2.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#149dcc\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#232323\" condition=\"gradientBg && bg.type == 'color'\">\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\"><video muted autoplay loop><source src=\"https://safespotisrael.github.io/safespot/assets/images/CLIP.webm\" type=\"video/webm\"></video></div>\n\n            <div style=\"direction: rtl;\"><div class=\"media-content\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\">רכישה מאובטחת</h1>\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-section-text mbr-white pb-3 \">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">הרכישה מתבצעת באמצעות קניה מאובטחת דרך Paypal, \n<br>נא לשים לב שפרטי המשלוח מצויינים בהזמנה\n<br><br><b>ניתן לשלם גם בביט ובהעברה בנקאית <a href=\"https://bit.ly/safespotpay\" target=\"_blank\">דרך וואטסאפ</a><br></b><br>נא לבחור את מספר הנרתיקים בתיבה למטה, יש <b>הנחה </b>בבחירת יותר מיחידה אחת.<br><br>לרכישה של מעל 5 יחידות ולמפיצים תינתן הנחה נוספת, <a href=\"https://bit.ly/antispybag\" target=\"_blank\">לפרטים</a>.</p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-black\" data-app-placeholder=\"Type Text\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\">\n<input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\">\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"5ZCSGYATH6FNS\">\n<table>\n<tbody><tr><td><input type=\"hidden\" name=\"on0\" value=\"מספר פריטים\">מספר פריטים לבחירה</td></tr><tr><td><select name=\"os0\">\n\t<option value=\"1 Case\">1 נרתיק ₪200.00 </option>\n\t<option value=\"2 Cases\">2 נרתיקים ₪380.00</option>\n\t<option value=\"3 Cases\">3 נרתיקים ₪550.00</option>\n\t<option value=\"4 Cases\">4 נרתיקים ₪720.00</option>\n\t<option value=\"5 Cases\">5 נרתיקים ₪875.00</option>\n</select> </td></tr>\n</tbody></table>\n<input type=\"hidden\" name=\"currency_code\" value=\"ILS\">\n<input type=\"image\" src=\"https://www.paypalobjects.com/he_IL/IL/i/btn/btn_buynowCC_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - הדרך הקלה והבטוחה יותר לשלם באינטרנט!\">\n<img alt border=\"0\" src=\"https://www.paypalobjects.com/he_IL/i/scr/pixel.gif\" width=\"1\" height=\"1\">\n</form>\n\n\n\n</a></div>\n            </div>\n        </div>\n    </div>\n\n</div></section>",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n    \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"50\">\n        <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\" checked>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1.png\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#149dcc\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"bg.type == 'color'\" checked>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#232323\" condition=\"gradientBg && bg.type == 'color'\">\n        \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\"><video muted autoplay loop><source src=\"https://safespotisrael.github.io/safespot/assets/images/CLIP.webm\" type=\"video/webm\"></video></div>\n\n            <div style=\"direction: rtl;\"><div class=\"media-content\">\n                <h1 class=\"mbr-section-title mbr-white pb-3 mbr-fonts-style\" mbr-if=\"showTitle\" mbr-theme-style=\"display-1\">רכישה מאובטחת</h1>\n                <h3 class=\"mbr-section-subtitle align-left mbr-white mbr-light pb-3 mbr-fonts-style\" mbr-if=\"showSubTitle\" mbr-theme-style=\"display-2\">\n                    Beautiful mobile websites\n                </h3>\n                <div class=\"mbr-section-text mbr-white pb-3 \">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-theme-style=\"display-7\">הרכישה מתבצעת באמצעות קניה מאובטחת דרך Paypal, \n<br>נא לשים לב שפרטי המשלוח מצויינים בהזמנה\n<br><br><b>ניתן לשלם גם בביט ובהעברה בנקאית <a href=\"https://bit.ly/safespotpay\" target=\"_blank\">דרך וואטסאפ</a><br></b><br>נא לבחור את מספר הנרתיקים בתיבה למטה, יש <b>הנחה </b>בבחירת יותר מיחידה אחת.<br><br>לרכישה של מעל 5 יחידות ולמפיצים תינתן הנחה נוספת, <a href=\"https://bit.ly/antispybag\" target=\"_blank\">לפרטים</a>.</p>\n                </div>\n                <div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-black\" data-app-placeholder=\"Type Text\"><form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\">\n<input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\">\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"5ZCSGYATH6FNS\">\n<table>\n<tbody><tr><td><input type=\"hidden\" name=\"on0\" value=\"מספר פריטים\">מספר פריטים לבחירה</td></tr><tr><td><select name=\"os0\">\n\t<option value=\"1 Case\">1 נרתיק ₪200.00 </option>\n\t<option value=\"2 Cases\">2 נרתיקים ₪380.00</option>\n\t<option value=\"3 Cases\">3 נרתיקים ₪550.00</option>\n\t<option value=\"4 Cases\">4 נרתיקים ₪720.00</option>\n\t<option value=\"5 Cases\">5 נרתיקים ₪875.00</option>\n</select> </td></tr>\n</tbody></table>\n<input type=\"hidden\" name=\"currency_code\" value=\"ILS\">\n<input type=\"image\" src=\"https://www.paypalobjects.com/he_IL/IL/i/btn/btn_buynowCC_LG.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - הדרך הקלה והבטוחה יותר לשלם באינטרנט!\">\n<img alt border=\"0\" src=\"https://www.paypalobjects.com/he_IL/i/scr/pixel.gif\" width=\"1\" height=\"1\">\n</form>\n\n\n\n</a></div>\n            </div>\n        </div>\n    </div>\n\n</div></section>",
           "_cid": "s4w7Hibp24",
           "_anchor": "header3-13",
           "_PHPplaceholders": [],
