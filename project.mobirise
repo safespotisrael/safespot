@@ -1366,7 +1366,7 @@
               "text-align": "center"
             },
             ".mbr-text, .mbr-section-btn DIV": {
-              "text-align": "center"
+              "text-align": "right"
             }
           },
           "_name": "header3",
