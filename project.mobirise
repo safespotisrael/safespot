@@ -1365,7 +1365,7 @@
             },
             ".mbr-text, .mbr-section-btn": {
               "text-align": "center",
-              "color": "#232323"
+              "color": "#2e2e2e"
             }
           },
           "_name": "header3",
