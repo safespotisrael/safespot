@@ -1735,6 +1735,10 @@ section.lazy-placeholder:after {
 .cid-s8dziztqkK .mbr-section-btn {
   text-align: center;
 }
+.cid-s8dziztqkK .mbr-text,
+.cid-s8dziztqkK .mbr-section-btn DIV {
+  text-align: center;
+}
 .cid-s3ZSUFefOl {
   padding-top: 15px;
   padding-bottom: 15px;

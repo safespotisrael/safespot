@@ -1364,6 +1364,9 @@
             },
             ".mbr-text, .mbr-section-btn": {
               "text-align": "center"
+            },
+            ".mbr-text, .mbr-section-btn DIV": {
+              "text-align": "center"
             }
           },
           "_name": "header3",
